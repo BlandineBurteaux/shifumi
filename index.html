@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Shi Fu Mi</title>
+		<meta name="author" content="Blandine Burteaux" />
+		<meta name="description" content="shifumi, pierre feuille ciseau, jeu" />
+		<meta name="keywords" content="shifumi, pierre feuille ciseau, jeu" />
+
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/index.css">
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="assets/js/index.js"></script>
+	</head>
+	<body>
+		<div id="opponent">
+			<div class="player"><i class="fa fa-user"></i> Votre adversaire <span id="opponent_win">0</span> partie(s) gagnée(s)</div>
+		</div>
+		<div id="opponent_choice">
+			<div class="hide choice">
+				<i data-value="pierre" class="hide fa fa-hand-rock-o"></i>
+				<i data-value="feuille" class="hide fa fa-hand-paper-o"></i>
+				<i data-value="ciseau" class="hide fa fa-hand-scissors-o"></i>
+			</div>
+		</div>
+		<div id="message"></div>
+		<div id="your_choice">
+			<div class="hide choice">
+				<i data-value="pierre" class="hide fa fa-hand-rock-o"></i>
+				<i data-value="feuille" class="hide fa fa-hand-paper-o"></i>
+				<i data-value="ciseau" class="hide fa fa-hand-scissors-o"></i>
+			</div>
+		</div>
+		<div id="you">
+			<div class="player"><i class="fa fa-user"></i> Vous <span id="your_win">0</span> partie(s) gagnée(s)</div>
+			<button id="pierre" value="pierre">
+				<i class="fa fa-hand-rock-o"></i>
+				<span>Pierre</span>
+			</button>
+			<button id="feuille" value="feuille">
+				<i class="fa fa-hand-paper-o"></i>
+				<span>Feuille</span>
+			</button>
+			<button id="ciseau" value="ciseau">
+				<i class="fa fa-hand-scissors-o"></i>
+				<span>Ciseau</span>
+			</button>
+		</div>
+	</body>
+</html>

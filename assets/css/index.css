@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+#opponent_choice, #your_choice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    line-height: 5vh;
+    margin: 3vh;
+    min-height: calc(9vh + 4px);
+    min-width: 20vh;
+}
+
+.choice {
+    background: white;
+    border-radius: 5vh;
+    border: 1px solid #BDBDBD;
+    padding: 2vh;
+}
+
+button {
+    background: white;
+    border-radius: 5vh;
+    box-shadow: 1vh 1vh #BDBDBD;
+    font-size: 12vh;
+    margin: 3vh;
+    min-width: 18vh;
+}
+
+button span {
+    display: block;
+    color: #666;
+    font-size: 3vh;
+}
+
+#message {
+    font-size: 5vh;
+    line-height: 5vh;
+    margin: 3vh;
+    min-height: 5vh;
+    opacity: 0;
+}
+
+#pierre {
+    color: #795548;
+}
+
+#feuille {
+    color: #8BC34A;
+}
+
+#ciseau {
+    color: #00B8D4;
+}
